@@ -5,8 +5,8 @@ import numpy as np
 # Load model + encoders
 model = joblib.load("notebook/model.pkl")
 le_severity = joblib.load("notebook/le_severity.pkl")
-le_activity = joblib.load("/workspaces/Health-Diet-Recommendation/notebook/le_activity.pkl")
-le_disease = joblib.load("/workspaces/Health-Diet-Recommendation/notebook/le_disease.pkl")
+le_activity = joblib.load("notebook/le_activity.pkl")
+le_disease = joblib.load("notebook/le_disease.pkl")
 
 # Diet recommendation logic
 def recommend_diet(disease):
